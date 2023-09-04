@@ -19,6 +19,7 @@ model Medico {
   especialidade String
 
   maeReferencia Mae[] 
+  bebeReferencia Bebe[]
 }
 
 model Mae {
@@ -45,4 +46,7 @@ model Bebe {
 
   maeReferencia  Mae  @relation(fields: [maeId], references: [id])
   maeId Int
+
+  medicoReferencia Medico @relation(fields: [medicoId], references: [id])
+  medicoId Int
 }
