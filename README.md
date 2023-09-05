@@ -2,10 +2,11 @@
 ### Programação Orientada a Objetos II
 
 # Alunos:
-Arthur Trevizani Buback e Sthefany Sobrinho Ferrerira Alves
+### Arthur Trevizani Buback
+### Sthefany Sobrinho Ferrerira Alves
 
 # Discente:
-Otavio Lube dos Santos
+### Otavio Lube dos Santos
 
 # Objetivo:
 Um berçário deseja informatizar suas operações. Quando um bebê nasce, algumas informações são armazenadas sobre ele, tais como: nome, data do nascimento, peso do nascimento, altura, a mãe deste bebê e o médico que fez seu parto. Para as mães, o berçário também deseja manter um controle, guardando informações como: nome, endereço, telefone e data de nascimento. Para os médicos, é importante saber: CRM, nome, telefone celular e especialidade.
