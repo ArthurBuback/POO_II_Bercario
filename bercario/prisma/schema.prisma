@@ -33,7 +33,7 @@ model Medico {
   telefone String
   especialidade String
 
-  maeReferencia Mae[] 
+  maeReferencia Mae[]
   bebeReferencia Bebe[]
 }
 
@@ -43,8 +43,8 @@ model Mae {
   endereco   String
   telefone String
   data_de_nascimento DateTime
-
-  medicoReferencia    Medico    @relation(fields: [medicoId], references: [id])
+  
+  medicoReferencia  Medico  @relation(fields: [medicoId], references: [id])
   medicoId  Int
 
   bebeReferencia Bebe[]
