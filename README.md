@@ -1,13 +1,11 @@
-# Trabalho_Otavio_Bercario
-Trabalho do Otávio a respeito da administração de um Berçário.
+# Disciplina:
+Programação Orientada a Objetos II
 
-# Link_para_dar_continuidade
-https://www.prisma.io/docs/getting-started/quickstart
+# Alunos:
+Arthur Trevizani Buback e Sthefany Sobrinho Ferrerira Alves
 
-# Mapeamento automático
-Usar "@@map" ao final de cada model para mapear automático? (?)
-(https://www.prisma.io/docs/concepts/components/prisma-schema/data-model)
+# Discente:
+Otavio Lube dos Santos
 
-# Instancias multiplas
-Fazer um "CRUD" para não ter que instanciar multiplas coisas uma por uma.
-(https://www.prisma.io/docs/concepts/components/prisma-client/crud)
+# Objetivo:
+Um berçário deseja informatizar suas operações. Quando um bebê nasce, algumas informações são armazenadas sobre ele, tais como: nome, data do nascimento, peso do nascimento, altura, a mãe deste bebê e o médico que fez seu parto. Para as mães, o berçário também deseja manter um controle, guardando informações como: nome, endereço, telefone e data de nascimento. Para os médicos, é importante saber: CRM, nome, telefone celular e especialidade.
