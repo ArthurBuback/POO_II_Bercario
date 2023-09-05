@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 async function main() {
-  const medico = await prisma.medico.create({
+  const user = await prisma.user.create({
     data: {
       crm: 'Sim',
       nome: 'Alice',
@@ -12,7 +12,7 @@ async function main() {
 
     },
   })
-  console.log(medico)
+  console.log(user)
 }
 
 main()
